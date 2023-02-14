@@ -40,4 +40,9 @@
     .demo-img{
         max-width: 500px;
     }
+    
+    #faq-section{
+        margin-left: 80px !important;
+        margin-right: 80px !important;
+    }
 }

@@ -2,12 +2,14 @@ const data = [
     {   id:1, question: "Spring boot - microservices project", 
         answer:"sdbvsdbsbrsd" ,
         img_path: "./resources/images/1.jpg",
-        keypoints: ["a", "b", "c", "d"]
+        keypoints: ["a", "b", "c", "d"],
+        link:"https://github.com/austin-indrapaul/Microservices-project.git"
     },
-    {   id:2, question: "Spring boot -microservices project with API gateway",
+    {   id:2, question: "Spring boot - microservices project with API gateway",
         answer:"No. Nif 5G service is available in your area." ,
         img_path: "./resources/images/1.jpg",
-        keypoints: ["a", "b", "c", "d"]
+        keypoints: ["a", "b", "c", "d"],
+        link:"https://github.com/austin-indrapaul/Microservices-project.git"
     },
   ];
 
@@ -31,7 +33,11 @@ function Faq(props){
                             <li>{pt}</li>
                         )
                     }</ul>
-                </div>
+                    <br/><br/>
+                    <div className="text-center">
+                        <a className="btn  btn-warning" target="_blank" href={props.link}>VIew source code</a>
+                    </div>
+                  </div>
             </div>
         </div>
     );
@@ -49,6 +55,7 @@ function FaqComponent(){
                      answer={item.answer} 
                      keypoints={item.keypoints}
                      img_path = {item.img_path}
+                     link = {item.link}
                      />
                 ))}
             </div>

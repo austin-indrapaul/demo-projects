@@ -14,7 +14,7 @@ const data = [
     },
     {   id:2, heading: "Spring boot - microservices project with API gateway",
         description:"No. Nif 5G service is available in your area." ,
-        img_path: "./resources/images/1.jpg",
+        img_path: "./resources/images/2.jpg",
         keypoints: ["a", "b", "c", "d"],
         link:"https://github.com/austin-indrapaul/Microservices-project.git",
         branch:"api-gateway"

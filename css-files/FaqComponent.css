@@ -35,7 +35,7 @@ h6 em{
 
 @media (max-width: 430px) {
     .demo-img{
-        max-width: 200px;
+        max-width: 250px;
     }
 }
 
@@ -45,7 +45,13 @@ h6 em{
     }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 650px) {
+    .demo-img{
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 750px) {
     .demo-img{
         max-width: 550px;
     }

@@ -13,9 +13,15 @@ const data = [
         branch:"basic"
     },
     {   id:2, heading: "Spring boot - microservices project with API gateway",
-        description:"No. Nif 5G service is available in your area." ,
+        description:"This project is extention of previous one which includes a gateway to microservices" ,
         img_path: "./resources/images/2.jpg",
-        keypoints: ["a", "b", "c", "d"],
+        keypoints: ["Two services were created: user service and deparetment service", 
+                    "Both the services run at different ports",
+                    "User service handles requests related to user details",
+                    "Department service handles requests related to department details",
+                    "User has to connect to api gateway from there the requests will be transferred to respective server to get the details",
+                    "User service and Department service has a channel to connect to get the department details of a user"
+                ],
         link:"https://github.com/austin-indrapaul/Microservices-project.git",
         branch:"api-gateway"
     },

@@ -1,5 +1,4 @@
 const data = [
-    
     {   id:1, heading: "Spring boot - Rest Api project", 
         description:"This project demonstartes the Rest Api service using spring boot" ,
         img_path: "./resources/images/3.jpg",
@@ -11,7 +10,14 @@ const data = [
         link:"https://github.com/austin-indrapaul/simple-spring-projects.git",
         branch:"main"
     },
-    {   id:2, heading: "Spring boot - microservices project", 
+    {   id:2, heading: "Spring security - Rest Api project", 
+        description:"This project demonstartes spring security over Rest Api service using spring boot" ,
+        img_path: "./resources/images/3.jpg",
+        keypoints: ["This project is extension of previous one with spring security added."],
+        link:"https://github.com/austin-indrapaul/simple-spring-projects.git",
+        branch:"spring-security-basic"
+    },
+    {   id:3, heading: "Spring boot - microservices project", 
         description:"This project demonstartes the microservice architecture using spring boot" ,
         img_path: "./resources/images/1.jpg",
         keypoints: ["Two services were created: user service and deparetment service", 
@@ -24,7 +30,7 @@ const data = [
         link:"https://github.com/austin-indrapaul/Microservices-project.git",
         branch:"basic"
     },
-    {   id:3, heading: "Spring boot - microservices project with API gateway",
+    {   id:4, heading: "Spring boot - microservices project with API gateway",
         description:"This project is extention of previous one which includes a gateway to microservices" ,
         img_path: "./resources/images/2.jpg",
         keypoints: ["Two services were created: user service and deparetment service", 
